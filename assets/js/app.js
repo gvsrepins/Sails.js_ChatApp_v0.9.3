@@ -11,7 +11,7 @@
 (function (io) {
 
   // as soon as this file is loaded, connect automatically, 
-  var socket = io.connect();
+  var socket = io.connect('http://localhost:8080');
   if (typeof console !== 'undefined') {
     log('Connecting to Sails.js...');
   }
