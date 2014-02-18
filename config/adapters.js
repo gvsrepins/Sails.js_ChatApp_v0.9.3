@@ -20,11 +20,11 @@ module.exports.adapters = {
   // Learn more: http://en.wikipedia.org/wiki/MySQL
   mysql: {
     module: 'sails-mysql',
-    host: 'aulaaws.cwwszn67aibz.sa-east-1.rds.amazonaws.com',
+    host: 'dbseedaws.c4if5jo9duob.us-west-2.rds.amazonaws.com',
     port: 3306,
-    user: 'filipe',
-    password: '12345678',
-    database: 'mydb'
+    user: 'seedaws',
+    password: 'seedaws2',
+    database: 'dbseedaws'
   }
  
 };
