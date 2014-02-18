@@ -77,6 +77,7 @@
         render: function () {
                 this.$el.html("");
                 this.collection.each(function(msg){
+                    console.log(msg)
                     this.$el.append(this.template(msg.toJSON()));
                 }, this)
         }
