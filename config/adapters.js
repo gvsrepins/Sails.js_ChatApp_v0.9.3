@@ -21,7 +21,7 @@ module.exports.adapters = {
   mysql: {
     module: 'sails-mysql',
     host: 'aulaaws.cwwszn67aibz.sa-east-1.rds.amazonaws.com',
-    port: '3306',
+    port: 3306,
     user: 'filipe',
     password: '12345678',
     database: 'mydb'
